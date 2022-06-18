@@ -13,7 +13,8 @@
                 </ul>
             </div>
 
-            <div>
+            <div id="vuoto">
+                <div id="linea"></div>
                 <h2 id="main-title">Logistics <br> that goes <br> futher.</h2>
                 <div id="subtitle">
                     <span>For 20 years working with the most<br>innovative in the field of trasportation.</span>
@@ -29,8 +30,12 @@
 </template>
 
 <script>
+
 export default {
   name: 'MyMain',
+  components :{
+   
+  },
 
   data(){
     return{
@@ -166,4 +171,16 @@ a{
     text-decoration: none;
 }
 
+#vuoto{
+    position: relative;
+}
+
+#linea{
+    background-color: #058283;
+    width: 220px;
+    height: 20px;
+    position: absolute;
+    right: 350px;
+    top: 220px;
+}
 </style>
