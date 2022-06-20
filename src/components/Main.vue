@@ -25,15 +25,29 @@
                 </div>
             </div>
         </section>
+        <MySection/>
+        <MyCompany/>
+        <MyLogo/>
+        <MyNews/>
+        <MyNewsletter/>
     </main>
 </template>
 
 <script>
+import MySection from './MySection.vue'
+import MyCompany from './MyCompany.vue'
+import MyLogo from './Loghi.vue'
+import MyNews from './News.vue'
+import MyNewsletter from './Newsletter.vue'
 export default {
     
   name: 'MyMain',
   components :{
-   
+   MySection,
+    MyCompany,
+    MyLogo,
+    MyNews,
+    MyNewsletter
   },
 
   data(){

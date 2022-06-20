@@ -3,7 +3,7 @@
         <div id="container">
             <div id="contacts">
                 <span id="nex">NEX</span>
-                <span id="gen">GEN</span>
+                <span>GEN</span>
                 <br>
                 <br>
                 <p>A Functional HTML Template <br> for Corporate & Business.</p>

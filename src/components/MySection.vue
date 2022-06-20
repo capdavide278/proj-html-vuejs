@@ -65,7 +65,7 @@ section{
     margin-top: 10px;
   }
   #title{
-    margin-left: 20%;
+    margin-left: 10%;
   }
 
   #description{

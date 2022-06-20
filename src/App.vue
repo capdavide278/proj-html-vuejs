@@ -2,21 +2,13 @@
   <div id="app">
     <Header/>
     <Main/>
-    <MySection/>
-    <MyCompany/>
-    <MyLogo/>
-    <MyNews/>
-    <Footer/>
+    <Footer/> 
   </div>
 </template>
 
 <script>
 import Header from './components/Header.vue'
 import Main from './components/Main.vue'
-import MySection from './components/MySection.vue'
-import MyCompany from './components/MyCompany.vue'
-import MyLogo from './components/Loghi.vue'
-import MyNews from './components/News.vue'
 import Footer from './components/Footer.vue'
 
 
@@ -26,12 +18,6 @@ export default {
     Header,
     Main,
     Footer,
-    MySection,
-    MyCompany,
-    MyLogo,
-    MyNews
-
-    
   }
 }
 </script>
