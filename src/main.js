@@ -7,6 +7,9 @@ import {faClock} from '@fortawesome/free-solid-svg-icons'
 import {faPhone} from '@fortawesome/free-solid-svg-icons'
 import {faEnvelope} from '@fortawesome/free-solid-svg-icons'
 import { fab } from '@fortawesome/free-brands-svg-icons'
+import {faLocation} from '@fortawesome/free-solid-svg-icons'
+import {faCopyright} from '@fortawesome/free-solid-svg-icons'
+
 /* import font awesome icon component */
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
@@ -15,6 +18,8 @@ library.add(faClock)
 library.add(faPhone)
 library.add(faEnvelope)
 library.add(fab)
+library.add(faLocation)
+library.add(faCopyright)
 
 
 /* add font awesome icon component */
