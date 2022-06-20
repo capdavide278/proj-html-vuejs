@@ -38,6 +38,7 @@ header{
     justify-content: center;
     align-items: center;
     justify-content: space-around;
+    z-index: 500;
     i{
         margin-right: 5px;
     }

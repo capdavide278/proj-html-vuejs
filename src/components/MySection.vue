@@ -34,13 +34,13 @@ export default {
     return{
       information:[
         {
-          img:"../assets/img/gallery-3.jpg",
+          img:require("../assets/img/gallery-3.jpg"),
           title:"Technology",
           description:"Focused on developing technology solutions adapted to our client's needs."
         },
 
         {
-          img:"../assets/img/gallery-5.jpg",
+          img:require("../assets/img/gallery-5.jpg"),
           title:"Transport",
           description:"We develop operational strategies to improve logistical efficiency."
         },
@@ -114,5 +114,9 @@ p{
 h3{
   font-size: 25px;
   margin: 15px 0;
+}
+
+img{
+  height: 50%;
 }
 </style>

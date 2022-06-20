@@ -26,12 +26,11 @@
             </div>
         </section>
     </main>
-  
 </template>
 
 <script>
-
 export default {
+    
   name: 'MyMain',
   components :{
    
