@@ -19,6 +19,7 @@
                 <h2><strong> About </strong></h2>
                 <ul>
                     <li id="info" v-for="(element, index) in informazioni" :key="index">
+                        >
                         {{element}}
                     </li>
                 </ul>
@@ -28,6 +29,7 @@
                 <h2><strong> Transport </strong></h2>
                 <ul>
                     <li id="info" v-for="(element, i) in trasporti" :key="i">
+                        >
                         {{element}}
                     </li>
                 </ul>
@@ -37,6 +39,7 @@
                 <h2><strong> Support </strong></h2>
                 <ul>
                     <li id="info" v-for="(element, j) in supporto" :key="j">
+                        >
                         {{element}}
                     </li>
                 </ul>
@@ -159,5 +162,9 @@ export default {
     #price{
         margin-bottom: 10px;
         margin-right: 20px;
+    }
+
+    i{
+        margin-right: 10px;
     }
 </style>

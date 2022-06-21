@@ -30,6 +30,7 @@
         <MyLogo/>
         <MyNews/>
         <MyNewsletter/>
+        <MyTouch/>
     </main>
 </template>
 
@@ -39,6 +40,7 @@ import MyCompany from './MyCompany.vue'
 import MyLogo from './Loghi.vue'
 import MyNews from './News.vue'
 import MyNewsletter from './Newsletter.vue'
+import MyTouch from './Touch.vue'
 export default {
     
   name: 'MyMain',
@@ -47,7 +49,8 @@ export default {
     MyCompany,
     MyLogo,
     MyNews,
-    MyNewsletter
+    MyNewsletter,
+    MyTouch
   },
 
   data(){

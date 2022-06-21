@@ -49,6 +49,7 @@ section{
     background-color: #05838346;
     padding: 5px 10px;
     border-radius: 5px;
+    
     }
     
     p{
@@ -69,6 +70,8 @@ section{
     border-radius: 10px;
     opacity: 0.7;
     margin-bottom: 15px;
+    background-color: #dce2db;
+    border: none;
 }
 
 #btn{
@@ -79,6 +82,7 @@ section{
     padding:10px 35px;
     font-size: 20px;
     border-radius: 10px;
+    border: none;
 }
 
 #form{

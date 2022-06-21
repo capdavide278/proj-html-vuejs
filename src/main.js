@@ -9,6 +9,7 @@ import {faEnvelope} from '@fortawesome/free-solid-svg-icons'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import {faLocation} from '@fortawesome/free-solid-svg-icons'
 import {faCopyright} from '@fortawesome/free-solid-svg-icons'
+import {faAmbulance} from '@fortawesome/free-solid-svg-icons'
 
 /* import font awesome icon component */
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
@@ -20,7 +21,7 @@ library.add(faEnvelope)
 library.add(fab)
 library.add(faLocation)
 library.add(faCopyright)
-
+library.add(faAmbulance)
 
 /* add font awesome icon component */
 Vue.component('font-awesome-icon', FontAwesomeIcon)

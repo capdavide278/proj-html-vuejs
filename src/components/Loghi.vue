@@ -46,7 +46,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 section{
-    height: 40vh;
+    height: 30vh;
     background-color: #eef4ed;
     display: flex;
     justify-content: center;
